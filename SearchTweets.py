@@ -121,7 +121,9 @@ class Score_Sentiment:
  
 def push_df_to_database(pandas_dataframe, database_loc,table_name):
     '''
-    Writes dataframe to an SQL database defined in init for storage
+    Writes dataframe to an SQL database for storage. 
+	Input: pandas dataframe to write to database, table name to write to,
+	and the location of the database on your computer.
     '''
     try:
         con = sqlite3.connect(database_loc)
