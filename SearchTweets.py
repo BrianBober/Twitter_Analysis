@@ -14,10 +14,14 @@ class Gather_Data:
         '''
         Putting API info here.
         '''
-        self.consumer_key = 'iKIPjGxOy704K9S8gf3UOLhXM'
-        self.consumer_secret = 'R6SxvyKvo7ZgrH6mU4eaY2Rx038phMTwgCogj9cauWR6ofQjtg'
-        self.access_token = '945488037143658496-YwfT9pUlduzpMXCYScY8r4KzsjNNdYO'
-        self.access_token_secret = 'WYBAkOfIKh2OcREJYllHnMjukv3LTB8gQ6UTdk7qI8xfu'
+		######################################
+		##Insert keys here to run the code!!##
+		######################################
+		
+        self.consumer_key = 
+        self.consumer_secret = 
+        self.access_token = 
+        self.access_token_secret = 
         
     def connect_to_twitter(self):
         '''
